@@ -8,6 +8,61 @@ table{
 	border-collapse: collapse;
 }
 
+.one{
+	border-top: none;
+	border-left: none;
+}
+
+.two{
+	border-top: none;
+}
+
+.three{
+	border-top: none;
+	border-right: none;
+}
+
+.four{
+	border-left: none;
+}
+
+.five{
+	border-right: none;
+	background-color: yellow;
+}
+
+.six{
+	border-left: none;
+}
+
+.seven{
+	border-right: none;
+}
+
+.eight{
+	border-right: none;
+}
+
+.nine{
+	border-left: none;
+	border-bottom: none;
+	background-color: yellow;
+}
+
+.ten{
+	border-right: none;
+	background-color: blue;
+}
+
+.eleven{
+	border-bottom: none;
+}
+
+.twelve{
+	border-bottom: none;
+	border-right: none;
+}
+
 tr{
 	height: 100px;
 	border: 12px solid black;
@@ -17,10 +72,6 @@ td{
 	width: 100px;
 	border: 12px solid black;
 }
-
-
-
-
 .red{
 	background-color: red;
 }
@@ -29,10 +80,3 @@ td{
 	background-color: gray;
 }
 
-.yellow{
-background-color: yellow;
-}
-
-.blue{
-	background-color: blue;
-}
