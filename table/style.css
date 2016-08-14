@@ -1,0 +1,39 @@
+body{
+	margin:0;
+	padding: 30px;
+}
+
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+
+
+tr{
+	height: 100px;
+	border: 12px solid black;
+}
+
+td{
+	width: 100px;
+		border: 12px solid black;
+
+	
+}
+
+.red{
+	background-color: red;
+}
+
+.gray{
+	background-color: gray;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.blue{
+	background-color: blue;
+}
