@@ -76,7 +76,7 @@ html{
 .Ofertas > p{
 	vertical-align: middle;
 	display: inline-block;
-	}
+}
 
 .Ofertas p{
 	font-size: 14px;
@@ -100,29 +100,29 @@ html{
 	border-bottom: 2px solid #aec7e5;
 }
 
+.form{
+	width: 560px;
+	height: 637px;
+	margin: 200px auto;
+}
+
 .form_up{
-	width:560px;
 	height: 60px;
 	background-color: rgba(0, 0, 0, 0.7); 
-	margin: 200px auto;
-	padding-top: 17px;
-	box-sizing: border-box;
+	line-height: 60px;
 }
 
 .form_up p{
 	text-align: center;
 	font-size: 24px;
 	color: #fff;
-	margin: 0;
-	text-align: center;
 }
 
-.form{
-	width: 560px;
-	height: 580px;
+.form_down{
+	height: 575px;
 	background-color: rgba(0, 0, 0, 0.7); 
-	margin: -198px auto;
-	padding-top: 38px;
+	margin-top: 2px;
+	padding-top: 35px;
 	box-sizing: border-box;
 }
 
@@ -140,7 +140,7 @@ html{
 	margin-bottom: 20px;
 }
 
-.facebook > span .with {
+.facebook > span .with{
 	font-weight: lighter;
 }
 
@@ -158,13 +158,13 @@ form{
 }
 
 .first_line, .second_line {
-	display: inline block; 
+	display: inline-block; 
 	vertical-align: middle;
 	width: 115px;
 }
 
 .ou{
-	display: inline block; 
+	display: inline-block; 
 	vertical-align: middle;
 	color: #838483;
 	font-size: 16px;
@@ -196,13 +196,16 @@ input:focus {
 
 .account{
 	width: 150px;
-	height: 35px;
+	margin: 0 auto;
+	padding-top: 16px;
+}
+
+.account > button{
+	height: 38px;
 	background: linear-gradient(to top, #2e7ac4, #4ca9d9);
-	margin-top: 18px;
-	margin-left: 65px;
 	border: none;
 	color: #fff;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .text_down{
