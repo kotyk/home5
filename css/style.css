@@ -1,11 +1,9 @@
 body{
 	background: url(../img/background.png) no-repeat;
 	background-size: cover;
-	background-position: top center;
-	width: 100%;
-	height: 100%;
+	background-position: center center;
 	margin:0;
-       padding:0;
+      padding:0;
 	font-family: Tahoma, sans-serif;
 }
 
@@ -103,16 +101,16 @@ html{
 	position: absolute;
        top: 50%;
        left: 50%;
-       margin-top: -159px;
+       margin-top: -165px;
        margin-left: -280px;
 	height: 637px;
 	width: 560px;
 }
 
 .form_up{
-	height: 60px;
+	height: 50px;
 	background-color: rgba(0, 0, 0, 0.7); 
-	line-height: 60px;
+	line-height: 50px;
 }
 
 .form_up p{
@@ -122,7 +120,7 @@ html{
 }
 
 .form_down{
-	height: 575px;
+	height: 565px;
 	background-color: rgba(0, 0, 0, 0.7); 
 	margin-top: 2px;
 	padding-top: 35px;
