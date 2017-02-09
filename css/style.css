@@ -1,14 +1,10 @@
 body{
-	background: url(../img/background.png) no-repeat;
-	background-size: cover;
-	background-position: center center;
+	background: url(../img/background.png) no-repeat center;
+       background-size: cover;
+       background-attachment: fixed;
 	margin:0;
-      padding:0;
+       padding:0;
 	font-family: Tahoma, sans-serif;
-}
-
-html{
-	height: 100%;
 }
 
 .menu_fon{
@@ -34,14 +30,16 @@ html{
 	font-size: 14px;
 	height: 33px;
 	box-sizing: border-box;
-	width: 100px;
 	text-align: center;
 }
 
 .menu a{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 120px;
+	height: 33px;
 	text-decoration: none;
 	color: #60b5ed;
-
 }
 
 .menu li:hover{
@@ -53,31 +51,12 @@ html{
 	color: #fff;
 }
 
-.line{
-	display: block;
-	float: right;
-}
-
-.Ofertas{
-	height: 33px;
-	width: 160px;
-	padding: 0 20px;
-	line-height: 7px;
-	box-sizing: border-box;
-}
-
-.Ofertas > img{
+li > img{
        vertical-align: middle;
 }
 
-.Ofertas > p{
-	vertical-align: middle;
-	display: inline-block;
-}
-
-.Ofertas p{
-	font-size: 14px;
-	color: #fff;
+.menu li:last-child{
+	width: 160px;
 }
 
 .Ola{
@@ -98,10 +77,11 @@ html{
 }
 
 .form{
+	display: none;
 	position: absolute;
        top: 50%;
        left: 50%;
-       margin-top: -165px;
+       margin-top: -318px;
        margin-left: -280px;
 	height: 637px;
 	width: 560px;
