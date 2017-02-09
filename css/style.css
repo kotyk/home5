@@ -29,7 +29,6 @@ body{
 	float-right;
 	font-size: 14px;
 	height: 33px;
-	box-sizing: border-box;
 	text-align: center;
 }
 
@@ -43,7 +42,7 @@ body{
 }
 
 .menu li:hover{
-	font-weight: bolder;
+      font-weight: bolder;
 	background-color: #4eabda;
 }
 
@@ -77,13 +76,11 @@ li > img{
 }
 
 .form{
-	display: none;
 	position: absolute;
        top: 50%;
        left: 50%;
-       margin-top: -318px;
+       margin-top: -293px;
        margin-left: -280px;
-	height: 637px;
 	width: 560px;
 }
 
@@ -97,6 +94,7 @@ li > img{
 	text-align: center;
 	font-size: 24px;
 	color: #fff;
+	margin-top: 0;
 }
 
 .form_down{
